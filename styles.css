@@ -134,6 +134,24 @@ body {
     color: var(--text-soft);
 }
 
+.hero-text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.hero-text span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollText 20s linear infinite;
+}
+
+.hero-text:hover span {
+  animation-play-state: paused;
+}
+
+
 hr {
     width: 80px;
     border: none;
@@ -177,7 +195,7 @@ hr {
   background: currentColor;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.25s ease;
+  transition: transform 0.35s ease;
 }
 
 /* Hover */
@@ -239,4 +257,13 @@ hr {
     * {
         animation: none !important;
     }
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
