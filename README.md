@@ -36,8 +36,8 @@ El proyecto está desarrollado con **HTML5, CSS3 y JavaScript**, con un diseño 
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/Alb3rtsonTL/project-landing.git
-cd project-landing
+git clone https://github.com/Alb3rtsonTL/alb3rtsontl-portfolio.git
+cd alb3rtsontl-portfolio
 ```
 
 - **Autor:** [Alb3rtsonTL](https://github.com/Alb3rtsonTL) - Albertson Terrero López
